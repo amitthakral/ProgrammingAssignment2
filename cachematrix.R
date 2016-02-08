@@ -1,5 +1,5 @@
 ## Two function written bwlow are used to stored the value of 
-##reverse ofa matriz in different environment so that computation can be achieved faster for large files
+##reverse of a matrix in different environment so that computation can be achieved faster for large files
 
 ## This function created a special vector of function that
 ##sets and gets the reverse value of a matrix
