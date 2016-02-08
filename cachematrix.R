@@ -1,8 +1,8 @@
-## Two function written bwlow are used to stored the value of 
-##reverse of a matrix in different environment so that computation can be achieved faster for large files
+## Two function written bwlow are written to stored the value of reverse of a matrix in different environment
+## so that computation can be achieved faster for large files
 
-## This function created a special vector of function that
-##sets and gets the reverse value of a matrix
+## This function creates a special vector of function that sets and gets the reverse value of a matrix
+
 
 makeCacheMatrix <- function(x = matrix()) {
 	r <- NULL
@@ -24,6 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## else the value of reverse os calculated and stored in the cache memory
 
 cacheSolve <- function(x, ...) {
+
         ## Return a matrix that is the inverse of 'x'
          r <- x$getreverse()
         if(!is.null(r)) {
